@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --ligting-color: #0089b7;
+    --dark-color: #003d62;
+    --darker-color: #003251;
+    --secondary-color: #fff700;
+}
+
+@import url(
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+});
+
+
+
+html{
+    font-size:62.5% ;
+}
+
+html, body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+    color: white;
+}
+
+body {
+    max-width: 1200px;
+    font-size: 1.4rem;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+     background-color: var(--ligting-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+nav li {
+    font-size: 1.8rem;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+}
